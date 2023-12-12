@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+header button {
+  padding: 0.5rem 1rem;
+  background: #556cd6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+header button:hover {
+  background: #4054b2;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls form p {
+  margin-bottom: 10px;
+}
+
+.search {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ddd;
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #218838;
+}
+
+.results {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.results section {
+  margin-top: 20px;
+}
+
+.results h2 {
+  margin-bottom: 0.5rem;
+}
+
+.results img {
+  max-width: 100%;
+  height: auto;
+}
+
+.results p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #556cd6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Country Card Styles */
+.results div {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.results img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.results p,
+.results a {
+  color: #555;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.results a {
+  display: inline-block;
+  background-color: #556cd6;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.results a:hover {
+  background-color: #4054b2;
+}
